@@ -1,0 +1,18 @@
+[package]
+edition = "2018"
+name = "capitu"
+version = "0.1.0"
+description = "My personal screen capture assistant for Wayland."
+
+repository = "https://github.com/cauebs/capitu"
+authors = ["Cauê Baasch de Souza <cauebs@pm.me>"]
+license = "GPL-3.0+"
+readme = "README.md"
+
+[dependencies]
+wl-clipboard-rs = "0.3.1"
+swayipc = "2.2.3"
+notify-rust = "3.6.3"
+dirs = "2.0.2"
+chrono = "0.4.10"
+structopt = "0.3.18"
