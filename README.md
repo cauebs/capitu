@@ -1,5 +1,5 @@
 # capitu
-My personal screen capture assistant for Wayland.
+My personal screen capture assistant for Sway.
 
 If you intend to use this, drop an issue and I'll try to make it more presentable.
 
