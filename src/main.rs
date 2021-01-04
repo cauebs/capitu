@@ -155,7 +155,7 @@ fn start_recording(
     process.arg("-f").arg(path);
 
     if audio {
-        process.arg("-a");
+        process.arg("-a0");
     }
 
     let message = format!("starting recording to be saved at {}", path.display());
