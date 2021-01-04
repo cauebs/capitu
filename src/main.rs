@@ -212,7 +212,8 @@ fn main() -> Result<()> {
             .arg("-s2")
             .arg("wf-recorder")
             .output()?;
-        return Ok(());
+
+        return notify("stopped recording");
     }
 
     let region = if args.selection {
